@@ -23,6 +23,5 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  new_array = kittens.slice(1)
-  return new_array
+  return [...kittens, name]
 }
